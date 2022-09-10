@@ -4,7 +4,7 @@
 
 <head>
 
-  <title>Yunhe Wang's Homepage</title>
+  <title>Xuejing Zhang</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -127,52 +127,9 @@
       <p><li> 11/2019, three papers have been accepted by <a href="https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf">AAAI 2020</a>.</li></p>
       -->
 
-  </div>
-<!-- The Projects Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h2>Recent Projects</h2>
-    <p class="w3-justify">
-        Actually, model compression is a kind of technique for developing portable deep neural networks with lower memory and computation costs. I have done several projects in Huawei including some smartphones' applications in 2019 and 2020 (e.g. Mate 30 and Honor V30). Currently, I am leading the AdderNet project, which aims to develop a series of deep learning models using only additions (<a href="https://www.reddit.com/r/MachineLearning/comments/ekw2s1/r_addernet_do_we_really_need_multiplications_in/">Discussions on Reddit</a>).
-    </p>
-
-        <h4><li>Adder Neural Networks</li></h4>
-        <img style="width:96%;" src="images/AdderNet.jpg"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
-        </p>
-        <p class="w3-justify">
-        I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
-        </p> 
-
-        <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
-        <img style="width:96%;" src="images/GhostNet.png"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>
-        <p class="w3-justify">
-        The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
-        </p> 
-
-        <h4><li>AI on Ascend: Real-Time Video Style Transfer</li></h4>
-        <img style="width:32%;" src="images/atlas200.png"> &nbsp&nbsp <img style="width:60%;" src="images/video.gif">
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference (HDC) 2020</a> | <a style="color: #447ec9" href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
-        </p>
-        <p class="w3-justify">
-        This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer Kit</strong>. The latency of the original model for processing one image is about <span style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span style="color:red">40ms</span>. 
-        </p>  
 
   </div>
-  
-  <!-- The Talks Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="talks">
-    <h2>Talks</h2>
-      <p><li> 10/2021, Vision Transformer at <a href="http://valser.org/2021/#/tutorial">VALSE 2021, Hangzhou, China</a>.</li></p>
-	  <p><li> 05/2021, Adder Neural Network at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>. Thanks <a href="https://datawisdom.ca/">Vahid</a> for the invitation.</li></p>
-      <p><li> 06/2020, "<a href="http://valser.org/webinar/slide/slides/20200603/%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9-%E5%B7%A5%E4%B8%9A%E7%95%8C%E5%92%8C%E5%AD%A6%E6%9C%AF%E7%95%8C%E7%9A%84%E5%B7%AE%E5%BC%82.pdf">AI on the Edge - Discussion on the Gap Between Industry and Academia</a>" at <a  href="http://valser.org/"><strong>VALSE</strong></a> Webinar.</li></p>
-      <p><li> 05/2020, "<a href="https://www.bilibili.com/video/av925692420/">Edge AI: Progress and Future Directions</a>" at <a href="https://www.qbitai.com/"> <strong>QbitAI</strong></a> using <a  href="https://www.bilibili.com/"><strong>bilibili</strong></a>.</li></p>
-  </div>
- <!-- The Publications Section -->
+  <!-- The Publications Section -->
   <div class="w3-container w3-padding-32"" id="publications">
     <h2>Research</h2>
       <p class="w3-left-align" style="line-height:200%">
@@ -617,128 +574,6 @@
       Dehua Song, Chang Xu, Xu Jia, Yiyi Chen, Chunjing Xu, <strong>Yunhe Wang</strong>
       <br>
       <em>AAAI</em>, 2020 | <a style="color: #447ec9" href="data/2020 AAAI SR NAS.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/vega">code</a>
-      </p>
-
-      <p>
-      <li><strong>Positive-Unlabeled Compression on the Cloud</strong>
-      <br>
-      Yixing Xu, <strong>Yunhe Wang</strong>, Hanting Chen, Kai Han, Chunjing Xu, Dacheng Tao, Chang Xu
-      <br>
-      <em>NeurIPS</em> 2019 | <a style="color: #447ec9" href="data/2019 NIPS PU Compression.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/Data-Efficient-Model-Compression/tree/master/pu_compress">code</a> | <a style="color: #447ec9" href="http://papers.nips.cc/paper/8525-positive-unlabeled-compression-on-the-cloud-supplemental.zip">supplement</a>
-      </p>
-
-      <p>
-      <li><strong>Data-Free Learning of Student Networks</strong>
-      <br>
-      Hanting Chen,<strong>Yunhe Wang</strong>, Chang Xu, Zhaohui Yang, Chuanjian Liu, Boxin Shi,
-      <br>
-      Chunjing Xu, Chao Xu, Qi Tian
-      <br>
-      <em>ICCV</em> 2019 | <a style="color: #447ec9" href="data/2019 ICCV DAFL.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/Data-Efficient-Model-Compression/tree/master/DAFL">code</a>
-      </p>
-
-      <p>
-      <li><strong>Co-Evolutionary Compression for Unpaired Image Translation</strong>
-      <br>
-      Han Shu, <strong>Yunhe Wang</strong>, Xu Jia, Kai Han, Hanting Chen, Chunjing Xu, Qi Tian, Chang Xu 
-      <br>
-      <em>ICCV</em> 2019 | <a style="color: #447ec9" href="data/2019 ICCV Co-Evolution Pruning.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/GAN-pruning">code</a> 
-      </p>
-
-      <p>
-      <li><strong>Searching for Accurate Binary Neural Architectures</strong>
-      <br>
-      Mingzhu Shen, Kai Han, Chunjing Xu, <strong>Yunhe Wang</strong>
-      <br>
-      <em>ICCV Neural Architectures Workshop</em> 2019 | <a style="color: #447ec9" href="data/2019 ICCVw Bianry Search.pdf">paper</a>
-      </p>
-
-      <p>
-      <li><strong>LegoNet: Efficient Convolutional Neural Networks with Lego Filters</strong>
-      <br>
-      Zhaohui Yang, <strong>Yunhe Wang</strong>, Hanting Chen, Chuanjian Liu, Boxin Shi, Chao Xu, Chunjing Xu, Chang Xu
-      <br>
-      <em>ICML</em> 2019 | <a style="color: #447ec9" href="data/2019 ICML LegoNet.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/LegoNet">code</a> 
-      </p>
-
-      <p>
-      <li><strong>Learning Instance-wise Sparsity for Accelerating Deep Models</strong>
-      <br>
-      Chuanjian Liu, <strong>Yunhe Wang</strong>, Kai Han, Chunjing Xu, Chang Xu 
-      <br>
-      <em>IJCAI</em> 2019 | <a style="color: #447ec9" href="data/2019 IJCAI Instance Sparsity.pdf">paper</a>
-      </p>
-
-      <p>
-      <li><strong>Attribute Aware Pooling for Pedestrian Attribute Recognition</strong>
-      <br>
-      Kai Han, <strong>Yunhe Wang</strong>, Han Shu, Chuanjian Liu, Chunjing Xu, Chang Xu
-      <br>
-      <em>IJCAI</em> 2019 | <a style="color: #447ec9" href="https://www.ijcai.org/proceedings/2019/0341.pdf">paper</a>
-      </p>
-
-      <p>
-      <li><strong>Crafting Efficient Neural Graph of Large Entropy</strong>
-      <br>
-      Minjing Dong, Hanting Chen, <strong>Yunhe Wang</strong>, Chang Xu
-      <br>
-      <em>IJCAI</em> 2019 | <a style="color: #447ec9" href="data/2019 IJCAI Graph Pruning.pdf">paper</a>
-      </p>
-
-      <p>
-      <li><strong>Low Resolution Visual Recognition via Deep Feature Distillation</strong>
-      <br>
-      Mingjian Zhu, Kai Han, Chao Zhang, Jinlong Lin, <strong>Yunhe Wang</strong>
-      <br>
-      <em>ICASSP</em> 2019 | <a style="color: #447ec9" href="data/2019 ICASSP LR Distillation.pdf">paper</a> 
-      </p>
-
-      <p>
-      <li><strong>Learning Versatile Filters for Efficient Convolutional Neural Networks</strong>
-      <br>
-      <strong>Yunhe Wang</strong>, Chang Xu, Chunjing Xu, Chao Xu, Dacheng Tao 
-      <br>
-      <em>NeurIPS</em> 2018 | <a style="color: #447ec9" href="data/2018 NIPS Versatile Filter.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/Versatile-Filters">code</a> | <a style="color: #447ec9" href="https://papers.nips.cc/paper/7433-learning-versatile-filters-for-efficient-convolutional-neural-networks-supplemental.zip">supplement</a> 
-      </p>
-
-      <p>
-      <li><strong>Towards Evolutionary Compression</strong>
-      <br>
-      <strong>Yunhe Wang</strong>, Chang Xu, Jiayan Qiu, Chao Xu, Dacheng Tao 
-      <br>
-      <em>SIGKDD</em> 2018 | <a style="color: #447ec9" href="data/2018 KDD GA pruning.pdf">paper</a> 
-      </p>
-
-      <p>
-      <li><strong>Autoencoder Inspired Unsupervised Feature Selection</strong>
-      <br>
-      Kai Han, <strong>Yunhe Wang</strong>, Chao Zhang, Chao Li, Chao Xu 
-      <br>
-      <em>ICASSP</em> 2018 | <a style="color: #447ec9" href="data/2018 ICASSP Feature Selector.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/NoahLuffy/AEFS">code</a> 
-      </p>
-
-      <p>
-      <li><strong>Adversarial Learning of Portable Student Networks</strong>
-      <br>
-      <strong>Yunhe Wang</strong>, Chang Xu, Chao Xu, Dacheng Tao 
-      <br>
-      <em>AAAI</em> 2018 | <a style="color: #447ec9" href="data/2018 AAAI Adversarial Distillation.pdf">paper</a> 
-      </p>
-
-      <p>
-      <li><strong>Beyond Filters: Compact Feature Map for Portable Deep Model</strong>
-      <br>
-      <strong>Yunhe Wang</strong>, Chang Xu, Chao Xu, Dacheng Tao 
-      <br>
-      <em>ICML</em> 2017 | <a style="color: #447ec9" href="data/2017 ICML Beyond Filters.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/YunheWang/RedCNN">code</a> | <a style="color: #447ec9" href="http://proceedings.mlr.press/v70/wang17m/wang17m-supp.zip">supplement</a>
-      </p>
-
-      <p>
-      <li><strong>Beyond RPCA: Flattening Complex Noise in the Frequency Domain</strong>
-      <br>
-      <strong>Yunhe Wang</strong>, Chang Xu, Chao Xu, Dacheng Tao 
-      <br>
-      <em>AAAI</em> 2017 | <a style="color: #447ec9" href="data/2017 AAAI Beyond RPCA.pdf">paper</a>
       </p>
 
       <p>
